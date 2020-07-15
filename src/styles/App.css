@@ -1,3 +1,28 @@
 body{
     font-family: 'Arial';
 }
+.pagination{
+    margin: 30px 0 60px 0;
+    display: flex;
+    padding: 0;
+}
+.pagination li{
+    list-style-type: none;
+    margin-right: 10px;
+}
+
+.pagination .active{
+    background: rgba(1,1,1, .15);
+}
+
+.pagination li a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    padding: 0 10px;
+    height: 30px;
+    border:1px solid grey;
+    border-radius: 3px;
+    cursor: pointer;
+}

@@ -2,7 +2,7 @@ import React from 'react';
 import './ListItem.scss';
 
 const ListItem = ({ data, eventClick}) => {
-    console.log(data);
+    //console.log(data);
 
     return (
         <div onClick={() => eventClick(data.id)} className='ListItem'>

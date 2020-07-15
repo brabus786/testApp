@@ -1,0 +1,17 @@
+.UserInfo{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-auto-rows: 30px;
+
+    span{
+        align-self: center;
+        font-size: 18px;
+        color:grey;
+        padding:0 15px;
+    }
+
+    :nth-last-child(2n){
+        color:black;
+        font-weight: bold;
+    }
+}
