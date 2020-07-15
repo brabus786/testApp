@@ -1,0 +1,25 @@
+.component1 {
+    border: 1px solid red;
+    width: max-content;
+    margin: auto;
+
+    .columnName {
+        width: max-content;
+        border: 1px solid grey;
+        border-top: none;
+        display: grid;
+        grid-template-columns: min(100px) min(150px) min(150px);
+        grid-template-rows: min(45px);
+        column-gap: 10px;
+
+        span {
+            align-self: center;
+            justify-self: flex-start;
+            font-size: 22px;
+            color: black;
+        }
+        :first-child{
+            margin-left: 10px;
+        }
+    }
+}
