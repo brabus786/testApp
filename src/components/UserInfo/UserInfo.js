@@ -2,7 +2,6 @@ import React from 'react';
 import './UserInfo.scss';
 
 const UserInfo = ({ useObject }) => {
-    console.log(useObject);
 
     let userComponent = null;
     if (useObject !== null) {
