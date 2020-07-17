@@ -1,10 +1,14 @@
-import React from 'react';
+import React, {FC} from 'react';
 import './Select.scss';
 
-const Select = (props) => {
+interface SelectProps {
+    onChange: (e: React.ChangeEvent<HTMLSelectElement>) => void;
+}
+
+const Select: FC<SelectProps> = (props) => {
     return (
         <>
-            <select onChange={props.SelectSearch}>
+            <select onChange={props.onChange}>
                 <option></option>
                 <option>active</option>
                 <option>inactive</option>
